@@ -121,7 +121,7 @@ function generateServicesSection() {
             <h3>${member.name}</h3>
             <p><strong>Role:</strong> ${member.role}</p>
             <p>${member.bio}</p>
-            <img src="${member.photo}" alt="${member.name}" class="img-fluid rounded-circle mb-3">
+            <img  src="${member.photo}" alt="${member.name}" class="img-fluid rounded-circle mb-3">
             `;
           teamMembersContainer.appendChild(memberElement);
         });  
@@ -139,7 +139,7 @@ function generateServicesSection() {
         projectMarkup += `
         <div class="col-md-4">
             <div class="card mb-4">
-                <img src="${project.image}" alt="${project.name}">
+                <img  src="${project.image}" alt="${project.name}" >
                 <div class="card-body">
                 <h5 class="card-title">${project.name}</h5>
                 <p class="card-text">${project.description}</p>
